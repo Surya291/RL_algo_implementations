@@ -1,0 +1,5 @@
+This is to implement a tic tac toe bot using Q learning.
+
+Useful resources : 
+
+https://towardsdatascience.com/an-ai-agent-plays-tic-tac-toe-part-1-building-the-opponent-to-play-against-bb5af74fded1

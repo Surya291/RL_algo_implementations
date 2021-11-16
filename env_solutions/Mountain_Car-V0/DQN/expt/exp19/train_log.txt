@@ -1,0 +1,22 @@
+
+HYPERPARAMETERS
+Comment: training with seed 100
+
+-------------------
+BUFFER_SIZE: 100000
+BATCH_SIZE: 128
+GAMMA: 0.99
+LR: 0.005
+CNET_UPDATE_EVERY: 5
+TNET_UPDATE_EVERY: 10000
+SEED: None
+-------------------TRAIN PARAMETERS-------------------
+n_episodes: 5000
+SCORE_WINDOW_LEN: 100
+eps_start: 1
+eps_end: 0.01
+eps_decay(k): 1.004
+device: cuda:0
+TARGET_SCORE: -150
+-------------------TRAINING-------------------
+Episode 100	time_step 20000	Average Score -200.00Episode 200	time_step 40000	Average Score -200.00Episode 300	time_step 59905	Average Score -199.05Episode 400	time_step 79804	Average Score -198.99Episode 500	time_step 99606	Average Score -198.02Episode 600	time_step 119554	Average Score -199.48Episode 700	time_step 139413	Average Score -198.59Episode 800	time_step 159157	Average Score -197.44Episode 900	time_step 178915	Average Score -197.58Episode 1000	time_step 198529	Average Score -196.14Episode 1100	time_step 218132	Average Score -196.03Episode 1200	time_step 237683	Average Score -195.51Episode 1300	time_step 257293	Average Score -196.10Episode 1400	time_step 276875	Average Score -195.82Episode 1500	time_step 296424	Average Score -195.49Episode 1600	time_step 316028	Average Score -196.04Episode 1700	time_step 335702	Average Score -196.74Episode 1800	time_step 354911	Average Score -192.09Episode 1900	time_step 374293	Average Score -193.82Episode 2000	time_step 393770	Average Score -194.77Episode 2100	time_step 412867	Average Score -190.97Episode 2200	time_step 432096	Average Score -192.29Episode 2300	time_step 451090	Average Score -189.94Episode 2400	time_step 470178	Average Score -190.88Episode 2500	time_step 488426	Average Score -182.48Episode 2600	time_step 507086	Average Score -186.60Episode 2700	time_step 525607	Average Score -185.21Episode 2800	time_step 543797	Average Score -181.90Episode 2900	time_step 562331	Average Score -185.34Episode 3000	time_step 581075	Average Score -187.44Episode 3100	time_step 598884	Average Score -178.09Episode 3200	time_step 616751	Average Score -178.67Episode 3300	time_step 634397	Average Score -176.46Episode 3400	time_step 651519	Average Score -171.22Episode 3500	time_step 668241	Average Score -167.22Episode 3600	time_step 685052	Average Score -168.11Episode 3700	time_step 702009	Average Score -169.57Episode 3800	time_step 720612	Average Score -186.03Episode 3900	time_step 738590	Average Score -179.78Episode 4000	time_step 756547	Average Score -179.57Episode 4100	time_step 774559	Average Score -180.12Episode 4200	time_step 792673	Average Score -181.14Episode 4300	time_step 811573	Average Score -189.00Episode 4400	time_step 830822	Average Score -192.49Episode 4500	time_step 850555	Average Score -197.33Episode 4600	time_step 870102	Average Score -195.47Episode 4700	time_step 889811	Average Score -197.09Episode 4800	time_step 909255	Average Score -194.44Episode 4900	time_step 928878	Average Score -196.23
