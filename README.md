@@ -24,3 +24,19 @@ https://user-images.githubusercontent.com/51915675/142051033-c00a48da-969c-4f23-
 
 https://user-images.githubusercontent.com/51915675/142051189-3361cc3c-9b47-457e-be1f-e979048c332d.mp4
 
+# DDPG Algorithm
+source : https://medium.com/@asteinbach/actor-critic-using-deep-rl-continuous-mountain-car-in-tensorflow-4c1fb2110f7c
+### a_ LunarLander Cont-V2 solution using DDPG
+
+
+https://user-images.githubusercontent.com/51915675/143687599-8b7a3764-1745-46d8-a778-cd72ec90521a.mp4
+
+### b) Mountain Car -V2 solution using DDPG
+
+https://user-images.githubusercontent.com/51915675/143687649-2516fa30-327b-48e4-9b1c-2ec54d76ffbf.mp4
+
+#Bandits Algorithm
+source : https://towardsdatascience.com/understanding-reinforcement-learning-hands-on-part-2-multi-armed-bandits-526592072bdc
+
+
+
