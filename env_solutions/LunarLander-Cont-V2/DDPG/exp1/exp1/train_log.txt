@@ -1,0 +1,37 @@
+
+HYPERPARAMETERS
+Comment: runs for 1000 epochs -- changed to default lr
+
+-------------------
+BUFFER_SIZE: 50000
+BATCH_SIZE: 128
+GAMMA: 0.99
+NOISE TYPE: OU
+CNet_LR: 0.003
+ANet_LR: 0.02
+SEED: None
+-------------------TRAIN PARAMETERS-------------------
+n_episodes: 1000
+SCORE_WINDOW_LEN: 100
+device: cuda:0
+TARGET_SCORE: 50
+-------------------TRAINING-------------------
+Episode 10	time_step 87	Average Score -387.74Episode 20	time_step 87	Average Score -409.29Episode 30	time_step 64	Average Score -396.40Episode 40	time_step 74	Average Score -411.81Episode 50	time_step 70	Average Score -427.60Episode 60	time_step 108	Average Score -499.75Episode 70	time_step 84	Average Score -564.78Episode 80	time_step 98	Average Score -629.78Episode 90	time_step 66	Average Score -663.31Episode 100	time_step 60	Average Score -682.09Episode 110	time_step 151	Average Score -732.08Episode 120	time_step 107	Average Score -779.14Episode 130	time_step 74	Average Score -836.10Episode 140	time_step 169	Average Score -897.37Episode 150	time_step 145	Average Score -957.20Episode 160	time_step 109	Average Score -970.53Episode 170	time_step 134	Average Score -969.26Episode 180	time_step 100	Average Score -965.99Episode 190	time_step 74	Average Score -978.91Episode 200	time_step 139	Average Score -992.41Episode 210	time_step 99	Average Score -1001.62Episode 220	time_step 92	Average Score -1000.10Episode 230	time_step 62	Average Score -1005.56Episode 240	time_step 69	Average Score -1003.85Episode 250	time_step 67	Average Score -969.95Episode 260	time_step 92	Average Score -966.11Episode 270	time_step 91	Average Score -959.75Episode 280	time_step 103	Average Score -953.42Episode 290	time_step 140	Average Score -953.39
+HYPERPARAMETERS
+Comment: ll
+
+-------------------
+BUFFER_SIZE: 50000
+BATCH_SIZE: 128
+GAMMA: 0.99
+NOISE TYPE: OU
+CNet_LR: 0.001
+ANet_LR: 0.0001
+SEED: None
+-------------------TRAIN PARAMETERS-------------------
+n_episodes: 1000
+SCORE_WINDOW_LEN: 100
+device: cuda:0
+TARGET_SCORE: 50
+-------------------TRAINING-------------------
+Episode 10	time_step 58	Average Score -644.33Episode 20	time_step 115	Average Score -769.03Episode 30	time_step 83	Average Score -771.87Episode 40	time_step 80	Average Score -815.77Episode 50	time_step 113	Average Score -848.05Episode 60	time_step 125	Average Score -877.47Episode 70	time_step 70	Average Score -872.88Episode 80	time_step 121	Average Score -875.67Episode 90	time_step 76	Average Score -862.08Episode 100	time_step 62	Average Score -844.80Episode 110	time_step 93	Average Score -850.65Episode 120	time_step 75	Average Score -834.09Episode 130	time_step 72	Average Score -827.76Episode 140	time_step 81	Average Score -809.25Episode 150	time_step 106	Average Score -798.17Episode 160	time_step 71	Average Score -768.74Episode 170	time_step 185	Average Score -769.86Episode 180	time_step 70	Average Score -756.21Episode 190	time_step 82	Average Score -767.01Episode 200	time_step 77	Average Score -766.70Episode 210	time_step 102	Average Score -768.77Episode 220	time_step 86	Average Score -766.30Episode 230	time_step 79	Average Score -770.90Episode 240	time_step 76	Average Score -768.13Episode 250	time_step 77	Average Score -754.87Episode 260	time_step 83	Average Score -776.44Episode 270	time_step 80	Average Score -762.27Episode 280	time_step 85	Average Score -753.56Episode 290	time_step 76	Average Score -737.29Episode 300	time_step 124	Average Score -741.98Episode 310	time_step 81	Average Score -731.32Episode 320	time_step 65	Average Score -731.78Episode 330	time_step 100	Average Score -723.06Episode 340	time_step 91	Average Score -717.47Episode 350	time_step 55	Average Score -713.00Episode 360	time_step 83	Average Score -691.06Episode 370	time_step 72	Average Score -700.84Episode 380	time_step 113	Average Score -703.70Episode 390	time_step 113	Average Score -711.29Episode 400	time_step 107	Average Score -710.63Episode 410	time_step 93	Average Score -719.67Episode 420	time_step 88	Average Score -714.60Episode 430	time_step 74	Average Score -719.64Episode 440	time_step 110	Average Score -713.34Episode 450	time_step 90	Average Score -709.78Episode 460	time_step 73	Average Score -706.81Episode 470	time_step 114	Average Score -720.67Episode 480	time_step 85	Average Score -730.12Episode 490	time_step 97	Average Score -732.09Episode 500	time_step 71	Average Score -726.96Episode 510	time_step 151	Average Score -742.49Episode 520	time_step 96	Average Score -745.18Episode 530	time_step 90	Average Score -740.32Episode 540	time_step 78	Average Score -751.43Episode 550	time_step 92	Average Score -766.85Episode 560	time_step 75	Average Score -773.34Episode 570	time_step 102	Average Score -766.02Episode 580	time_step 83	Average Score -752.89Episode 590	time_step 67	Average Score -743.56Episode 600	time_step 133	Average Score -750.50Episode 610	time_step 110	Average Score -741.17Episode 620	time_step 105	Average Score -758.20Episode 630	time_step 128	Average Score -765.04Episode 640	time_step 240	Average Score -752.44Episode 650	time_step 114	Average Score -735.69Episode 660	time_step 154	Average Score -725.17Episode 670	time_step 127	Average Score -697.75Episode 680	time_step 102	Average Score -695.69Episode 690	time_step 237	Average Score -686.61Episode 700	time_step 172	Average Score -675.96Episode 710	time_step 101	Average Score -654.30Episode 720	time_step 136	Average Score -627.41Episode 730	time_step 78	Average Score -600.00Episode 740	time_step 98	Average Score -596.71Episode 750	time_step 109	Average Score -588.25Episode 760	time_step 149	Average Score -572.78Episode 770	time_step 99	Average Score -578.71Episode 780	time_step 92	Average Score -575.42Episode 790	time_step 90	Average Score -573.18Episode 800	time_step 121	Average Score -583.39Episode 810	time_step 113	Average Score -590.07Episode 820	time_step 98	Average Score -592.58Episode 830	time_step 89	Average Score -596.37Episode 840	time_step 102	Average Score -600.11Episode 850	time_step 131	Average Score -599.72Episode 860	time_step 106	Average Score -607.76Episode 870	time_step 91	Average Score -599.75Episode 880	time_step 103	Average Score -595.90Episode 890	time_step 106	Average Score -594.76Episode 900	time_step 142	Average Score -581.04Episode 910	time_step 87	Average Score -572.84Episode 920	time_step 106	Average Score -571.55Episode 930	time_step 165	Average Score -571.68Episode 940	time_step 105	Average Score -582.33Episode 950	time_step 107	Average Score -593.45Episode 960	time_step 302	Average Score -595.95Episode 970	time_step 382	Average Score -597.38Episode 980	time_step 449	Average Score -592.92Episode 990	time_step 218	Average Score -597.62
